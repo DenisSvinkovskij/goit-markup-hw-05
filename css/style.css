@@ -1,0 +1,23 @@
+.div::before {
+  display: inline-block;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/icons/icon-tel.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.div::after {
+  display: inline-block;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/icons/icon-tel.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.div {
+  background-color: red;
+}
