@@ -42,6 +42,10 @@ li {
   margin: 0 auto;
 }
 
+.accent-section {
+  background-color: var(--background-accent-color);
+}
+
 /* SITE-NAV-TOP-LINE */
 
 .header-topline {
@@ -331,7 +335,25 @@ li {
   line-height: 1.7;
 }
 
-/* FEATURED PRODUCTS */
+/*  PRODUCTS */
+/* NEW COLLECTION */
+
+.man-left {
+  width: 256px;
+}
+
+.girl-left {
+  width: 256px;
+}
+
+.man-right {
+  width: 256px;
+  /* padding-top: 70px; */
+}
+
+.girl-right {
+  width: 256px;
+}
 
 .title {
   display: flex;
@@ -473,10 +495,6 @@ li {
 
 /* LATEST NEWS */
 
-.news {
-  background-color: var(--background-accent-color);
-}
-
 .news-list {
   padding: 0;
   margin: 0;
@@ -590,9 +608,9 @@ li {
 }
 
 .footer-link {
-  /* width: 90px;
+  width: 90px;
   height: 56px;
-  background-color: var(--accent-color); */
+  background-color: var(--accent-color);
 
   /* background-image: url(../images/icons/next.png);
    width: 48px;
@@ -603,7 +621,11 @@ li {
    */
 }
 
-.footer-link::before {
+.link-next {
+  margin: 16px 16px 14px 26%;
+}
+
+/* .footer-link::before {
   display: inline-block;
   content: '';
   width: 48px;
@@ -615,4 +637,4 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   padding: 16px 16px 14px 26px;
-}
+} */
